@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('E:/Advance Java/skillopedia/images/bg2.jpg');
+    background-image: url('E:/skillopedia/skillopedia/images/bg2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -296,8 +296,10 @@ body {
   .footerhead li{
     list-style: none;
     text-align: left;
-    margin:0.5%;
     padding-left: 1100px;
+    margin-bottom: 0.7em;
+    display: flex;
+    align-items: center;
   }
 
   .footerhead img{
