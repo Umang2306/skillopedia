@@ -88,6 +88,7 @@ body {
     padding-left: 5%;
     padding-right: 10%;
     text-align: left;
+    margin-inline: 2em;
     background-color: #130654;
     color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -168,7 +169,7 @@ body {
       display: flex;
       flex-direction: column;
       width: 100%;
-      max-width: 500px;
+      max-width: 400px;
       height: 800px; 
       border: 1px solid #7acb9d8c;
       padding-left: 0.5%;

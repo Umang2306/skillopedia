@@ -80,6 +80,7 @@ nav a.active {
     padding-left: 5%;
     padding-right: 7%;
     text-align: left;
+    margin-inline: 2em;
     background-color: #fffdd6;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
@@ -106,6 +107,7 @@ nav a.active {
     padding-left: 7%;
     padding-right: 5%;
     text-align: right;
+    margin-inline: 2em;
     background-color: #130654;
     color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

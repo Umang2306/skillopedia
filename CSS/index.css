@@ -78,6 +78,7 @@ body {
     padding-left: 7%;
     padding-right: 7%;
     text-align: left;
+    margin-inline: 2em;
     background-color: #fffdd6;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
@@ -87,6 +88,7 @@ body {
     padding-right: 8%;
     padding-left: 7%;
     text-align: right;
+    margin-inline: 2em;
     background-color: #130654;
     color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
