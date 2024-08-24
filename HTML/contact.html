@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Skillopedia</title>
+    <link rel="stylesheet" href="E:\Advance Java\skillopedia\CSS\contact.css">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="courses.html">Courses</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <header>
+        <img src="E:\Advance Java\skillopedia\images\Logo.jpeg" alt="Skillopedia Logo">
+        <h1><a href="index.html" class="no-line">  Skillopedia</a></h1>
+    </header>
+
+    <section class="contact-section">
+        <div class="form-container">
+            <h2>Contact Us</h2>
+            <p>We would love to hear from you! Please fill out this form and we will get in touch with you shortly.</p>
+
+            <form id="contactForm" class="contact-form" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+            <!-- Pop-up Box -->
+            <div id="popup" class="popup">
+                <div class="popup-content">
+                    <span class="close">&times;</span>
+                    <p>Form submitted successfully!</p>
+                </div>
+            </div>
+        
+        </div>
+
+        <div class="quote-container">
+            <h1>Our Moto -</h1>
+            <p>" Empowering Your Future, One Skill at a Time. "</p>
+            <hr>
+            <h1>Address -</h1>
+            <div class="p1">
+            <p>505, Vertex Vikas, S;, Vertex Vikas, Andheri (east) Mumbai, Maharashtra, 400069</p>
+            </div>
+            <h1>Creator -</h1>
+            <div class="p1">
+                <p>Contact the Creator at - #Umangchoudhary@gmail.com #linkedin.com/in/umang-choudhary</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footerhead">
+            <h3><a href="contact.html" class="no-line">Contact Us</a></h3>
+            <ul>
+                <li><img src="E:\Advance Java\skillopedia\images\icons8-gmail-48.png" alt="Email Icon"> Skillopedia@gmail.com</li>
+                <li><img src="E:\Advance Java\skillopedia\images\icons8-phone-50.png" alt="Phone Icon"> +918120428383</li>
+                <li><img src="E:\Advance Java\skillopedia\images\icons8-linkedin-50.png" alt="LinkedIn Icon"> Skillopedia</li>
+            </ul>
+        </div>
+        <p>&copy; 2024 Skillopedia. All rights reserved.</p>
+    </footer>
+
+    <script src="E:\Advance Java\skillopedia\JS\contact.js"></script>
+</body>
+</html>

@@ -1,0 +1,214 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('E:/Advance Java/skillopedia/images/bg2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 288vh;
+}
+
+header {
+  display: flex;
+  background-color: #130654;
+    color: #46dd2e;
+  font-family:'Times New Roman', Times, serif;
+  font-size: larger;
+  font-weight: bold;
+  font-style: italic;
+  text-align: left;
+  text-align: center;
+  align-items: center;
+  padding: 0.25em 0;
+  padding-left:5%;
+}
+header h1{
+  margin: 0.5em;
+  display: flex;
+  align-items: center;
+}
+
+header img{
+  display: inline-flexbox;
+  border-radius: 10em;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: auto;
+  margin-right: 10px;
+}
+
+nav {
+  position: fixed;
+  background-color: #2b0276ad;
+  color: #ffffff;
+  margin-left: 30%;
+  padding: 0.5em 0;
+}
+
+nav a {
+  color: #fafcfc;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  margin: 2em;
+}
+
+nav a.active {
+  background-color: #fafcfc;
+  color: #130654;
+  padding: 0.45em;
+  padding-inline: 0.8em;
+}
+
+  .no-line{
+    text-decoration: none;
+    color: inherit;
+  }
+
+  
+  .intro {
+    padding: 2em 0;
+    text-align: center;
+  }
+  
+  .intro-card1 {
+    border: 1px solid #9cf7c860;
+    padding: 1.5em;
+    padding-bottom: 3em;
+    padding-left: 5%;
+    padding-right: 7%;
+    text-align: left;
+    background-color: #fffdd6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+    h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    
+  }
+  .intro-card1 p,.intro-card2 p{
+  font-size: larger; 
+  font-style: italic;
+  }
+
+  .intro-card1 li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger ;
+    margin-bottom: 10px;
+    text-align: left;
+  } 
+
+  .intro-card2 {
+    padding: 1em;
+    padding-bottom: 3em;
+    padding-left: 7%;
+    padding-right: 5%;
+    text-align: right;
+    background-color: #130654;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .intro-card2 h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    color: #46dd2e;  
+  }
+  button {
+    border-color: #6fd29f;
+    background-color:#6fd29f; 
+    padding: 1%;
+    color:#fff;
+    font-size: medium;
+    border-radius: 5em;
+    padding-inline: 5em;
+  }
+
+  .slider {
+    padding: 1.5em;
+    padding-bottom: 3em;
+    padding-left: 5%;
+    padding-right: 7%;
+    text-align: left;
+    background-color: #e5eb98ad;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slides {
+    display: flex; 
+    transition: transform 0.5s ease-in-out; 
+    align-items: center;
+}
+
+.slide {
+    min-width: 80%;
+    padding-left: 13%;
+    display: none; 
+}
+
+.slides .slide:first-child {
+    display: block;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 10px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: rgba(161,128,10,0.5);
+    border: none;
+    user-select: none;
+    transform: translateY(-50%);
+}
+
+.next {
+    right: 10px;
+}
+
+.prev {
+    left: 10px;
+}
+  
+  footer {
+    background-color: #130654;
+    color: #f6f6cc;
+    text-align: center;
+    padding: 1em 0;
+  }
+
+  footer p{
+    padding-left: 5%;
+    text-align: left;
+  }
+  .footerhead{
+    padding-right: 12%;
+    text-align:right;
+  }
+  .footerhead h3{
+    padding-right: 6%;
+  }
+
+  .footerhead li{
+    list-style: none;
+    text-align: left;
+    margin:0.5%;
+    padding-left: 1100px;
+  }
+
+  .footerhead img{
+    padding: 20px 8.5;
+    width: 9%;
+    display: inline-flex;
+  }

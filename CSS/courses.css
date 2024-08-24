@@ -1,0 +1,307 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('E:/Advance Java/skillopedia/images/bg2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 303vh;
+  }
+  
+  header {
+    display: flex;
+    background-color: #130654;
+    color: #46dd2e;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
+    text-align: center;
+    align-items: center;
+    padding: 0.25em 0;
+    padding-left:5%;
+  }
+  header h1{
+    margin: 0.5em;
+    display: flex;
+    align-items: center;
+  }
+
+  header img{
+    display: inline-flexbox;
+    border-radius: 10em;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  nav {
+    position: fixed;
+    background-color: #2b0276ad;
+    color: #ffffff;
+    margin-left: 30%;
+    z-index: 1000;
+    padding: 0.5em 0;
+  }
+  
+  nav a {
+    color: #fafcfc;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    margin: 2em;
+  }
+
+  nav a.active {
+    background-color: #fafcfc;
+    color: #130654;
+    padding: 0.45em;
+    padding-inline: 0.8em;
+}
+
+  .no-line{
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .intro {
+    padding: 1.5em 0;
+    text-align: center;
+  }
+
+  .intro-card1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px;
+    gap: 20px;
+  }
+
+  .intro-card2 {
+    border-top: 1px solid #ddd;
+    padding: 1em;
+    padding-bottom: 3em;
+    padding-left: 5%;
+    padding-right: 10%;
+    text-align: left;
+    background-color: #130654;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .intro-card1>.cards,.intro-card1>.cards1,.intro-card1>.cards2,.intro-card1>.cards3,.intro-card1>.cards4,.intro-card1>.cards5
+  {
+    flex: 1;
+    margin: 10px;
+    width: 300px;
+  }
+
+  .intro-card1 p,.intro-card2 p{
+    font-size: larger; 
+    font-style: italic;
+  }
+  
+  .intro-card2 h3{
+        font-family: 'Times New Roman', Times, serif ;
+        font-size: xx-large;
+        color: #46dd2e;
+        text-align: center;
+  }
+
+  h4{
+        font-family: 'Times New Roman', Times, serif ;
+        font-size:4em;
+        text-decoration:underline;
+        margin-top: 3%;
+        margin-bottom: 0%;
+        text-align: center;
+  }
+
+  .video-thumbnail {
+        position: relative;
+        cursor: pointer;
+        flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+    
+  .play-button {
+        position:relative;
+        justify-content: center;
+        bottom: 20px;
+        left: 50%;
+        transform: translate(-55%, -30%);
+        font-size: 3em;
+        margin-top: auto;
+        color: rgba(255, 255, 255, 0.8);
+        text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+  }
+
+  .play-button button {
+      cursor: pointer;
+      background-color: #59f142;
+      position: 10px 20px;
+      padding: 0.4em;
+      align-items: center;
+      justify-content: space-between;
+      margin-left: 6.7em;
+      margin-top: 0em;
+      color: #02074d;
+      font-weight: bold;
+      font-size: medium;
+      border-radius: 5em;
+      padding-inline: 6em;
+  }
+
+  .card-img {
+      width: 100%;
+      height: auto;
+      object-fit: flex;
+      padding-left: 2.2em;
+  }
+  
+  .cards, .cards1, .cards2, .cards3, .cards4, .cards5{ 
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 500px;
+      height: 800px; 
+      border: 1px solid #7acb9d8c;
+      padding-left: 0.5%;
+      padding-right: 5%;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #2b0276ad;
+      color: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      text-align: center;
+  }
+
+  .cards p, .cards1 p, .cards2 p, .cards3 p, .cards4 p, .cards5 p {
+      text-align: justify;
+      padding-left: 60px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .cards h2, .cards1 h2, .cards2 h2, .cards3 h2, .cards4 h2, .cards5 h2 {
+      font-family: 'Times New Roman', Times, serif ;
+      font-size: x-large;
+      text-align: center;
+      margin-left: 2.6em;
+  }
+
+  .cards:hover,.cards1:hover,.cards2:hover,.cards3:hover,.cards4:hover,.cards5:hover{
+  transform: scale(1.05);
+  }
+    
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 500%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+  }
+
+  .modal label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .modal input,
+  .modal select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+
+  .modal-content h2{
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .modal button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    width: 100%;
+    font-size: medium;
+    font-weight: bold;
+    background-color: #6ac5fdd0;
+    color: #000;
+    border-radius: 5em;
+    cursor: pointer;
+  }
+  
+  .modal button:hover {
+    background-color: #8945f6d6;
+  }
+  
+  .modal-content {
+    background: linear-gradient(45deg, #61b5e9eb,#2b0276ec);
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  footer {
+    background-color: #130654;
+    color: #f6f6cc;
+    text-align: center;
+    padding: 1em 0;
+  }
+
+  footer p{
+    padding-left: 5%;
+    text-align: left;
+  }
+  
+  .footerhead{
+    padding-right: 12%;
+    text-align:right;
+  }
+  .footerhead h3{
+    padding-right: 6%;
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: xx-large;
+  }
+
+  .footerhead li{
+    list-style: none;
+    text-align: left;
+    margin:0.5%;
+    padding-left: 1100px;
+  }
+
+  .footerhead img{
+    padding: 20px 8.5;
+    width: 9%;
+    display: inline-flex;
+  }

@@ -1,0 +1,251 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('E:/Advance Java/skillopedia/images/bg2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+  }
+  
+  header {
+    display: flex;
+    background-color: #130654;
+    color: #46dd2e;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
+    text-align: center;
+    align-items: center;
+    padding: 0.25em 0;
+    padding-left:5%;
+  }
+  header h1{
+    margin: 0.5em;
+    display: flex;
+    align-items: center;
+  }
+
+  header img{
+    display: inline-flexbox;
+    border-radius: 10em;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  nav {
+    position: fixed;
+    background-color: #2b0276ad;
+    color: #ffffff;
+    text-align: left;
+    margin-left: 30%;
+    padding: 0.5em 0;
+  }
+  
+  nav a {
+    color: #fafcfc;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    margin: 2em;
+  }
+  
+  nav a.active {
+    background-color: #fafcfc;
+    color: #130654;
+    padding: 0.45em;
+    padding-inline: 0.8em;
+}
+
+  .no-line{
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .contact-section {
+    display: flex;
+    padding: 2em 5%;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1400px;
+    height: 730px;
+    background-color: #5d4ffbd4;
+    background: linear-gradient(90deg ,#7165f137, #260760c0, #1c024dca);
+}
+
+.form-container {
+    flex: 1;
+    margin-right: 2em;
+}
+
+.form-container h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+.form-container p {
+    text-align: left;
+    font-size: 1.1em;
+    margin-bottom: 2em;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.contact-form label {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    width: 100%;
+}
+
+.contact-form button {
+    padding: 0.75em;
+    background-color: #1350ace3;
+    border: none;
+    margin-left: 3%;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 35px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #0b034fc5;
+}
+
+.quote-container {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(130deg , #4009a5e1, #ffc739e6);
+    color: white;
+    margin-left: 5%;
+    padding: 2em;
+    border-radius: 8px;
+}
+
+.quote-container h1{
+    font-style: italic;
+    text-align: left;
+    font-size: 1.7em;
+    margin-left: 5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.quote-container p {
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-bottom: 13%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.quote-container .p1 p{
+  font-size: 1.3em;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 0%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 3%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.quote-container hr{
+  width:65%;
+  border-bottom: 3px solid #fff;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 2em;
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+    display: inline-block;
+    margin: 10% auto;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.popup-content .close {
+    cursor: pointer;
+    color: #333;
+    float: right;
+    font-size: 3em;
+}
+
+.popup-content p{
+  margin-top: 6em;
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: x-large;
+}
+  
+  footer {
+    background-color: #130654;
+    color: #f6f6cc;text-align: center;
+    padding: 1em 0;
+  }
+
+  footer p{
+    padding-left: 5%;
+    text-align: left;
+  }
+  .footerhead{
+    padding-right: 12%;
+    text-align:right;
+  }
+  .footerhead h3{
+    padding-right: 6%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+  }
+
+  .footerhead li{
+    list-style: none;
+    text-align: left;
+    margin:0.5%;
+    padding-left: 1060px;
+  }
+
+  .footerhead img{
+    padding: 20px 8.5;
+    width: 9%;
+    display: inline-flex;
+  }
