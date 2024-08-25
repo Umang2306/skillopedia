@@ -43,9 +43,11 @@ body {
     position: fixed;
     background-color: #2b0276ad;
     color: #ffffff;
-    margin-left: 30%;
+    margin-left: 28%;
     z-index: 1000;
-    padding: 0.5em 0;
+    border-radius: 0 0 20px 20px;
+    padding: 0.8em 3em;
+    box-shadow: 0 2px 5px rgba(239, 247, 237, 0.7);
   }
   
   nav a {
@@ -59,8 +61,8 @@ body {
   nav a.active {
     background-color: #fafcfc;
     color: #130654;
-    padding: 0.45em;
-    padding-inline: 0.8em;
+    padding: 0.67em;
+    padding-inline: 1em;
 }
 
   .no-line{
@@ -77,8 +79,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 15px;
-    gap: 20px;
+    margin: 25px;
+    gap: 25px;
   }
 
   .intro-card2 {
