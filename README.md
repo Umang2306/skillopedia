@@ -1,2 +1,1 @@
-# skillopedia
-Skillopedia
+# skillopedia.github.io
