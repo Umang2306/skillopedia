@@ -2,11 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('https://github.com/Umang2306/skillopedia/blob/main/images/bgimag.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 300vh;
+    background-color: rgb(245, 200, 195);
   }
   
   header {
